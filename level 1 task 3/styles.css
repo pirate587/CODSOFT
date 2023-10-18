@@ -1,0 +1,28 @@
+.caluculator
+{
+    background-color:cornflowerblue;
+    height: 400px;
+    width: 250px;;
+    border-radius: 10px;;
+    padding-bottom: 10px;;
+    padding-top: 10px;;
+}
+input[type="button"]
+{
+    padding:30px;
+background-color: rgb(88, 154, 156);
+border-radius: 10px;
+
+}
+.display
+{
+    padding: 25px;
+
+    border-radius: 5px;;
+    background-color:aliceblue;
+    border: solid rgb(82, 78, 78) 4px;
+    color: black;
+    font-family:monospace;
+    font-size: 15px;
+ 
+}

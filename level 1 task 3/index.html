@@ -1,0 +1,47 @@
+<!--index.html for caluculator-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caluculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <table class="caluculator">
+        <tr>
+<td colspan="3"> <input class="display" type="text" id="res" disabled /></td>
+<td><input type="button" value="C" onclick="ClearScreen()" id="btn"/></td>
+</tr>
+<tr>
+    <td><input type="button" value="1" onclick="show('1')"/> </td>
+    <td><input type="button" value="2" onclick="show('2')"/> </td>
+    <td><input type="button" value="3" onclick="show('3')"/> </td>
+    <td><input type="button" value="+" onclick="show('+')"/> </td>
+
+</tr>
+<tr>
+    <td> <input type="button" value="4" onclick="show('4')"/> </td>
+    <td> <input type="button" value="5" onclick="show('5')"/> </td>
+    <td> <input type="button" value="6" onclick="show('6')"/> </td>
+    <td> <input type="button" value="-" onclick="show('-')"/> </td>
+</tr>
+<tr>
+    <td> <input type="button" value="7" onclick="show('7')"/> </td>
+    <td> <input type="button" value="8" onclick="show('8')"/> </td>
+    <td> <input type="button" value="9" onclick="show('9')"/> </td>
+    <td> <input type="button" value="*" onclick="show('*')"/> </td> 
+</tr>
+<tr>
+    <td> <input type="button" value="." onclick="show('.')" id="btn"/></td>
+    <td> <input type="button" value="0" onclick="show('0')"/></td>
+
+    <td> <input type="button" value="=" onclick="cal()"/> </td>
+    <td> <input type="button" value="/" onclick="show('/')"/> </td> 
+</tr>
+    </table>
+    <script type="text/javascript" src="./script.js"></script>
+</body>
+</html>
